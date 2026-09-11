@@ -193,7 +193,7 @@ def process_page(page_url):
                 current_group_title = ''
 
             # 分组过滤
-            if current_group_title in ['Hong Kong', 'Taiwan', 'China', 'Information']:
+            if current_group_title in ['Information']:
                 print(f'已过滤分组: {current_group_title}')
                 current_group_title = ''   # 标记跳过
             continue
